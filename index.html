@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>maze_challenge</title>
+    <script type="text/javascript" src="p5.min.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
+  </head>
+  <body>
+    <style>
+
+      body {
+        width: 750px;
+		height: 400px;
+		background-color:#EFEFEF;
+      }
+-fi
+      #mydiv {
+        position: absolute;
+        z-index: 9;
+        background-color: #FEFF9C;
+        text-align: center;
+        border: 1px solid #d3d3d3;
+      }
+
+      #mydivtwo {
+        position: absolute;
+        z-index: 9;
+        background-color: #FEFF9C;
+        text-align: center;
+        border: 1px solid #d3d3d3;
+      }
+
+      #mydivheader {
+        padding: 10px;
+        cursor: move;
+        z-index: 10;
+        background-color: #1f84de;
+        color: #fff;
+		text-align: center;
+      }
+	  
+    </style>
+
+    <h1 style="color:#002366; text-align:center">Summarizer</h1>
+    <div id="mydiv">
+      <div id="mydivheader">Notes</div>
+      <textarea id="txt" rows="2" cols="101" style="white-space: pre-wrap;"></textarea>
+    </div>
+
+    <div id="mydivtwo">
+      <div id="mydivheader">Click here to move summary</div>
+     <p id="summary"></p>
+    </div>
+    <script type="text/javascript" src="stickynote.js"></script>
+  </body>
+</html>
