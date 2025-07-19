@@ -29,7 +29,7 @@ xhr.open("POST", "https://gpt-summarization.p.rapidapi.com/summarize");
 xhr.setRequestHeader("content-type", "application/json");
 xhr.setRequestHeader(
   "x-rapidapi-key",
-  "e9bb7a8714mshb718c77ffb4594cp1712b3jsn315e431a60cd"
+  ""
 );
 xhr.setRequestHeader("x-rapidapi-host", "gpt-summarization.p.rapidapi.com");
 
